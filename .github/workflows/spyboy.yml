@@ -29,4 +29,4 @@ jobs:
     - name: Download Timeout Script
       run: Invoke-WebRequest https://raw.githubusercontent.com/AdityaGans2542/AdityaRDP/main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
     - name: Keep Alive
-      run: ./timeout.ps1
+      run: cmd /c start.bat
